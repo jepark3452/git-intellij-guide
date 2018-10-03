@@ -1,5 +1,10 @@
 package com.jepark.inflearn.chap1.lineedit;
 
+/**
+ * Created by jepark3452@gmail.com on 03/10/2018
+ * Blog: http://jepark3452.tistory.com/
+ * Github: https://github.com/jepark3452
+ */
 public class LineCopy {
 
     public static void main(String[] args) {
