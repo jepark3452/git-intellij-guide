@@ -10,9 +10,9 @@ public class ViewArguments {
     public void viewArguments() {
 
         // 인자미리보기: Command + P
-        EmailSender emailSender = new EmailSender();
+        //EmailSender emailSender = new EmailSender();
 
         // 인자미리보기: Command + P
-        EmailSender.receive();
+        //EmailSender.receive();
     }
 }

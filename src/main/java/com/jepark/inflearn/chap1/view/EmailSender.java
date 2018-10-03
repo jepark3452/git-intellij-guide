@@ -6,20 +6,25 @@ package com.jepark.inflearn.chap1.view;
  * Github: https://github.com/jepark3452
  */
 public class EmailSender {
-
-    private long count;
+    private Long id;
     private String name;
     private String email;
-    private String from;
-    private String to;
 
-    EmailSender(long count, String name, String email) {
-        this.count = count;
+    EmailSender(Long id, String name, String email) {
+        this.id = id;
         this.name = name;
         this.email = email;
     }
 
     public static void receive(String from, String to) {
-        System.out.println("from: " + from + ", to: " + to);
+        System.out.println(from + "님으로부터 " + to + "님이 메일을 받았습니다.");
+    }
+
+    public void send(String to) {
+        System.out.println(this.email + "님이 " + to + "님에게 메일을 보냅니다.");
+    }
+
+    public String getEmail() {
+        return email;
     }
 }
