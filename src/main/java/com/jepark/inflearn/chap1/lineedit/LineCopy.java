@@ -14,5 +14,8 @@ public class LineCopy {
 
     public void copyLine() {
         System.out.println("현재 줄을 복사합니다.");
+        // 라인 삭제하기: Command + delete
+        // 라인 복사하기: Command + D
+        System.out.println("현재 줄을 복사합니다.");
     }
 }
